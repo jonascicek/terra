@@ -1,11 +1,8 @@
-```md
 # Terraform First Steps
 
 Dieses Repository enthält eine einfache Terraform-Konfiguration, um die Grundlagen von Infrastructure as Code (IaC) mit Terraform und Docker praktisch zu erlernen.
 
-## 📁 Verzeichnisstruktur
-
-```
+## Verzeichnisstruktur
 
 terraform/
 └── first-steps/
@@ -15,12 +12,12 @@ terraform/
 
 ````
 
-## 📄 Inhalt
+## Inhalt
 
 - `provider.tf`: Definiert den Terraform-Block, required_providers und den docker Provider.
 - `main.tf`: Erstellt ein Docker-Image (nginx:latest) und startet daraus einen Container.
 
-## ▶️ Schritte
+## Schritte
 
 1. Verzeichnis öffnen:
 
@@ -40,12 +37,12 @@ terraform init
 terraform plan
 ```
 
-## ✅ Erwarteter Output
+## Erwarteter Output
 
 * `terraform init`: Erfolgreiche Initialisierung, Provider wird heruntergeladen.
 * `terraform plan`: Zeigt geplante Erstellung von `docker_image` und `docker_container`.
 
-## 🧠 Reflexion
+## Reflexion
 
 **Was ist die Rolle des `provider` Blocks in deiner Konfiguration?**
 Der `provider` Block konfiguriert Terraform so, dass es mit einer bestimmten Plattform (hier: Docker) interagiert.
