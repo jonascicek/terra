@@ -2,16 +2,6 @@
 
 Dieses Repository enthält eine einfache Terraform-Konfiguration, um die Grundlagen von Infrastructure as Code (IaC) mit Terraform und Docker praktisch zu erlernen.
 
-## Verzeichnisstruktur
-
-terraform/
-└── first-steps/
-├── provider.tf
-├── main.tf
-├── .gitignore
-
-````
-
 ## Inhalt
 
 - `provider.tf`: Definiert den Terraform-Block, required_providers und den docker Provider.
@@ -22,7 +12,7 @@ terraform/
 1. Verzeichnis öffnen:
 
 ```bash
-cd terraform/first-steps/
+cd terra
 ````
 
 2. Terraform initialisieren:
