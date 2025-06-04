@@ -1,3 +1,18 @@
+# Terraform generierte Dateien
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
+crash.log
+
+# Lokale Konfigurationsdateien (optional)
+*.tfvars
+*.tfvars.json
+
+# Datei aus Provisioner
+temp_index.html
+
+# Weitere Editor-/System-Dateien (empfohlen)
+*.log
+*.swp
+.DS_Store
+Thumbs.db
